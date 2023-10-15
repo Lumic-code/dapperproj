@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Dapper.Application.Interfaces;
+using Dapper.Infrastructure.Repository;
+using Microsoft.Extensions.DependencyInjection;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +9,12 @@ using System.Threading.Tasks;
 
 namespace Dapper.Infrastructure.ServiceReg
 {
-    internal class ServiceRegistration
+    public static class ServiceRegistration
     {
+        public static void AddInfrastructure(this IServiceCollection services)
+        {
+            services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
+        }
     }
 }

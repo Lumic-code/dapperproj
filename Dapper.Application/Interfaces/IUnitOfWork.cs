@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Dapper.Application.Interfaces
 {
-    internal interface IUnitOfWork
+    public interface IUnitOfWork
     {
+        IProductRepository Products { get; }
     }
 }
