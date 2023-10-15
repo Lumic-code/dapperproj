@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "dOzpNYR8w1BM/Qi2T+BXiy/lNScDx9ViJ+K2TdL8Aj9esIk77J92+B47+VMgym4Jm15ePTAo4FVw3zgloVDCeA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wisdo\\OneDrive\\Desktop\\Dapper.WebApi\\Dapper.WebApi\\Dapper.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wisdo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\wisdo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\wisdo\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\wisdo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\wisdo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\wisdo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
